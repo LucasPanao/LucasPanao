@@ -1,16 +1,36 @@
-### Hi there 👋
+```php
+<?php
 
-<!--
-**LucasPanao/LucasPanao** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+namespace LucasPanao;
 
-Here are some ideas to get you started:
+class About extends Me
+{
+    public function getCurrentWorkplace()
+    {
+        return [
+            'workplace' => [
+                'company' => 'Objetivo School',
+                'position' => 'System Programer Jr.'         
+            ]
+        ];
+    }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    public function getDailyKnowledge()
+    {
+        return [
+            Php::class,
+            Javascript::class,
+            Bootstrap::class,
+            Vuejs::class,
+            AngularJs::class,
+            Node.js::class,
+            MySql::class,
+        ];
+    }
+
+    public function getFutureGoal()
+    {
+        return 'To contribute to open source.';
+    }
+}
+```
