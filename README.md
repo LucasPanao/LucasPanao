@@ -18,12 +18,13 @@ class About extends Me
     public function getDailyKnowledge()
     {
         return [
+            Python::class,
             Php::class,
             Javascript::class,
             Bootstrap::class,
             Vuejs::class,
             AngularJs::class,
-            Node.js::class,
+            Nodejs::class,
             MySql::class,
         ];
     }
