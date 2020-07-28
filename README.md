@@ -10,7 +10,7 @@ class About extends Me
         return [
             'workplace' => [
                 'company' => 'Objetivo School',
-                'position' => 'System Programer Jr.'         
+                'position' => 'System Programmer Jr.'         
             ]
         ];
     }
